@@ -1,0 +1,65 @@
+body,
+.form-control:focus,
+.input-group-text {
+    background-color: #212121;
+}
+
+body {
+    color: gray;
+}
+
+a, h1, .container .fa.fa-inverse {
+    color: #2E97BF;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #2E97BF;
+}
+
+.icons .col {
+    text-align: center;
+    padding: 5px;
+    min-width: 125px;
+}
+
+.clickable,
+.icons .col {
+    cursor: pointer;
+}
+
+.container .fa {
+    color: #c9c9c9;
+}
+
+.form-control {
+    background-color: black;
+    color: #c9c9c9;
+}
+
+.container .fa:not(.fa-lg):not(.fa-2x):not(.fa-3x):not(.fa-4x):not(.fa-5x):not(.fa-stack-1x):not(.fa-stack-2x) {
+    font-size: 2rem;
+}
+
+.container .list .fa,
+.container .size .clickable.first .fa {
+    font-size: 1rem !important;
+}
+
+.modal-body .font-awesome {
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+.modal-body .font-awesome .fa-inverse {
+    color: white;
+}
+
+.modal-content {
+  background-color: #212121;
+  color: grey;
+}
+
+.modal-backdrop.show {
+    opacity: 0.75;
+}
