@@ -1,3 +1,11 @@
+* {
+   outline: 0;
+}
+
+.transition {
+    transition: all 0.5s ease;
+}
+
 body,
 .form-control:focus,
 .input-group-text {
@@ -32,11 +40,6 @@ a, h1, .container .fa.fa-inverse {
     color: #c9c9c9;
 }
 
-.form-control {
-    background-color: black;
-    color: #c9c9c9;
-}
-
 .container .fa:not(.fa-lg):not(.fa-2x):not(.fa-3x):not(.fa-4x):not(.fa-5x):not(.fa-stack-1x):not(.fa-stack-2x) {
     font-size: 2rem;
 }
@@ -44,6 +47,11 @@ a, h1, .container .fa.fa-inverse {
 .container .list .fa,
 .container .size .clickable.first .fa {
     font-size: 1rem !important;
+}
+
+.form-control {
+    background-color: black;
+    color: #c9c9c9;
 }
 
 .modal-body .font-awesome {
@@ -62,4 +70,22 @@ a, h1, .container .fa.fa-inverse {
 
 .modal-backdrop.show {
     opacity: 0.75;
+}
+
+.copy-code,
+code {
+    border-radius: 5px;
+}
+
+.copy-code {
+    position: absolute;
+    right: 15px;
+    background-color: #3f3f3f;
+    padding: 5px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.copy-code:hover {
+    color: white;
 }

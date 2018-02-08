@@ -9,9 +9,11 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/highlight.css">
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/highlight.pack.js"></script>
         <script src="js/scripts.js"></script>
     </head>
     <body>
@@ -100,22 +102,22 @@
                             <h3 class="pb-3">Stack</h3>
                             <div class="row text-center">
                                 <div class="col clickable">
-                                    <span class="fa-stack">
-                                        <i class="fa fa-stack-2x fa-circle" aria-hidden="true"></i>
-                                        <i class="fa fa-stack-1x fa-times fa-inverse" aria-hidden="true"></i>
-                                    </span>
+<span class="fa-stack">
+    <i class="fa fa-stack-2x fa-circle" aria-hidden="true"></i>
+    <i class="fa fa-stack-1x fa-times fa-inverse" aria-hidden="true"></i>
+</span>
                                 </div>
                                 <div class="col clickable">
-                                    <span class="fa-stack">
-                                        <i class="fa fa-stack-2x fa-square" aria-hidden="true"></i>
-                                        <i class="fa fa-stack-1x fa-wordpress fa-inverse" aria-hidden="true"></i>
-                                    </span>
+<span class="fa-stack">
+    <i class="fa fa-stack-2x fa-square" aria-hidden="true"></i>
+    <i class="fa fa-stack-1x fa-wordpress fa-inverse" aria-hidden="true"></i>
+</span>
                                 </div>
                                 <div class="col clickable">
-                                    <span class="fa-stack">
-                                        <i class="fa fa-stack-1x fa-camera fa-inverse" aria-hidden="true"></i>
-                                        <i class="fa fa-stack-2x fa-ban" aria-hidden="true"></i>
-                                    </span>
+<span class="fa-stack">
+    <i class="fa fa-stack-1x fa-camera fa-inverse" aria-hidden="true"></i>
+    <i class="fa fa-stack-2x fa-ban" aria-hidden="true"></i>
+</span>
                                 </div>
                             </div>
                         </div>
@@ -123,11 +125,11 @@
                             <h3 class="pb-3">List</h3>
                             <div class="row">
                                 <div class="col clickable">
-                                    <ul class="fa-ul">
-                                        <li><i class="fa fa-li fa-eur" aria-hidden="true"></i>EUR</li>
-                                        <li><i class="fa fa-li fa-usd" aria-hidden="true"></i>USD</li>
-                                        <li><i class="fa fa-li fa-jpy" aria-hidden="true"></i>JPY</li>
-                                    </ul>
+<ul class="fa-ul">
+    <li><i class="fa fa-li fa-eur" aria-hidden="true"></i>EUR</li>
+    <li><i class="fa fa-li fa-usd" aria-hidden="true"></i>USD</li>
+    <li><i class="fa fa-li fa-jpy" aria-hidden="true"></i>JPY</li>
+</ul>
                                 </div>
                             </div>
                         </div>
@@ -842,9 +844,10 @@
                     <div class="modal-header">
                         <h5 class="modal-title">Code</h5>
                     </div>
-                    <div class="modal-body text-center">
-                        <div class="font-awesome"></div>
-                        <div class="code"></div>
+                    <div class="modal-body">
+                        <i class="fa fa-code copy-code transition" aria-hidden="true" data-toggle="tooltip" data-placement="left" title="Select code"></i>
+                        <div class="font-awesome text-center"></div>
+<pre><code id="code"></code></pre>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
