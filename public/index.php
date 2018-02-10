@@ -20,7 +20,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center my-5">FontAwesome 4.7 <a href="https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0" target="_blank"><i class="fa fa-github" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i></a> <a href="https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.zip"><i class="fa fa-download" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Download"></i></a></h1>
+                    <h1 class="text-center my-5">
+                        FontAwesome 4.7
+                        <a href="https://fontawesome.com/v4.7.0" target="_blank"><i class="fa fa-book" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Official docu"></i></a>
+                        <a href="https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0" target="_blank"><i class="fa fa-github" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i></a>
+                        <a href="https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.zip"><i class="fa fa-download" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Download"></i></a>
+                    </h1>
                 </div>
             </div>
             
