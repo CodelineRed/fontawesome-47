@@ -852,7 +852,7 @@
                     <div class="modal-body">
                         <i class="fa fa-code copy-code transition" aria-hidden="true" data-toggle="tooltip" data-placement="left" title="Select code"></i>
                         <div class="font-awesome text-center"></div>
-<pre><code id="code"></code></pre>
+                        <pre><code id="code" class="html"></code></pre>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
