@@ -4,7 +4,7 @@
         <title>FontAwesome 4.7 - InsanityMeetsHH</title>
         <base href="http://fa47.insanitymeetshh.net/">
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <meta name="theme-color" content="#212121">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="css/bootstrap.min.css">
